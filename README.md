@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+## Map of Australia with population data in it's significant urban areas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Description:
 
-## Available Scripts
+Significant Urban Areas by population
 
-In the project directory, you can run:
+An application used to show data of Significant Urban Areas by population in Australia, built with React and leaflet.
 
-### `yarn start`
+## Project Status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Completed - Submitted - Awaiting Feedback
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `yarn test`
+#### Example:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-### `yarn build`
+You can download node from: `https://nodejs.org/en/download/current/`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`yarn install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Start Server:
 
-### `yarn eject`
+`yarn start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To Visit App:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`localhost:3000/`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Features:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Zooming in will hide the population in percentage by state and show the location of the significant urban areas.
+- Location marker's can be clicked to see the name of the location and its populaton.
+- The Markers will be red if the population is more than 1.5 million and it will be green if it is under
+- The circle at the bottom of the marker will be bigger in correspond to the population of the area.
 
-## Learn More
+## Assumptions:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Instead of the marker being Red, it was attempted to make the geographical area red, however, some of the areas intersected with different cities and data on the exact geographical bounds were not available which led to the current solution of the marker being Red or green with respect to the population of the area.
+- Data of states and cites such as their latitude and longitude were stored in a json file rather than fetching it from external apis for the following reasons
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* most of the api services such as "google map api" needed account creation
+* api calls were limited per day
+* to run it on other devices needed me to share my api token which was non-ethical
 
-### Code Splitting
+## Dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Leaflet was used mapping features. It was chosen against famous mapping services such as google and mapbox because it is free and open source.

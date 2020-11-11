@@ -65,7 +65,7 @@ const MapView = () => {
             style={{height: "100vh" , width:"100%"}}
             minZoom={5}
             zoom ={5}
-            center={[-28.2744, 133.7751]}
+            center={[-30.2744, 133.7751]}
             eventHandlers
         >
         <TileLayer url= "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
