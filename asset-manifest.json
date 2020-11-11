@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AusMap/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/AusMap/static/js/main.a67db541.chunk.js",
+    "main.js.map": "/AusMap/static/js/main.a67db541.chunk.js.map",
+    "runtime-main.js": "/AusMap/static/js/runtime-main.3ec70d31.js",
+    "runtime-main.js.map": "/AusMap/static/js/runtime-main.3ec70d31.js.map",
+    "static/css/2.807ea86c.chunk.css": "/AusMap/static/css/2.807ea86c.chunk.css",
+    "static/js/2.ca0a11d7.chunk.js": "/AusMap/static/js/2.ca0a11d7.chunk.js",
+    "static/js/2.ca0a11d7.chunk.js.map": "/AusMap/static/js/2.ca0a11d7.chunk.js.map",
+    "static/js/3.26fe62cc.chunk.js": "/AusMap/static/js/3.26fe62cc.chunk.js",
+    "static/js/3.26fe62cc.chunk.js.map": "/AusMap/static/js/3.26fe62cc.chunk.js.map",
+    "index.html": "/AusMap/index.html",
+    "static/css/2.807ea86c.chunk.css.map": "/AusMap/static/css/2.807ea86c.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/AusMap/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.ca0a11d7.chunk.js.LICENSE.txt": "/AusMap/static/js/2.ca0a11d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ec70d31.js",
+    "static/css/2.807ea86c.chunk.css",
+    "static/js/2.ca0a11d7.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.a67db541.chunk.js"
+  ]
+}
