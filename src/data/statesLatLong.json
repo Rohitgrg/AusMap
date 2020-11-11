@@ -1,0 +1,37 @@
+[
+  {
+    "State": "Victoria",
+    "Lat": -37.0201,
+    "Long": 144.9646
+  },
+  {
+    "State": "Northern Territory",
+    "Lat": -19.491411,
+    "Long": 132.550964
+  },
+  {
+    "State": "South Australia",
+    "Lat": -30.000233,
+    "Long": 136.209152
+  },
+  {
+    "State": "Western Australia",
+    "Lat": -25.042261,
+    "Long": 117.793221
+  },
+  {
+    "State": "Queensland",
+    "Lat": -20.917574,
+    "Long": 142.702789
+  },
+  {
+    "State": "New South Wales",
+    "Lat": -31.840233,
+    "Long": 145.612793
+  },
+  {
+    "State": "Tasmania",
+    "Lat": -42.4545,
+    "Long": 147.9707
+  }
+]
